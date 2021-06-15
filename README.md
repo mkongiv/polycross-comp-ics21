@@ -14,13 +14,17 @@ PoCC can be downloaded from: https://sourceforge.net/projects/pocc/files/1.5/
 Install PoCC 1.5:
 
 tar xvzf pocc-1.5.0-beta-selfcontained.tar.gz
+
 mv pocc-1.5.0-beta pocc-gpu-tss
+
 cd pocc-gpu-tss
+
 ./install.sh
 
-Copy the directory ics21-patches to PoCC's root (pocc-gpu-tss).
+Next, copy the directory ics21-patches to PoCC's root (pocc-gpu-tss).
 
 Enter ics21-patches and run:
+
 ./apply-ics21-patch.sh
 
 
