@@ -2,9 +2,9 @@ Software Artifact for ICS'21 paper: "Tile Size Selection of Affine Programs for 
 
 *Requisites*:
 
-pocc-1.5.0-beta-selfcontained.tar.gz
+- PoCC v1.5.0: pocc-1.5.0-beta-selfcontained.tar.gz
 (PoCC has its own set of dependences, including Automake, GMP, etc).
-IBM Cplex
+- IBM Cplex
 
 PoCC can be downloaded from: https://sourceforge.net/projects/pocc/files/1.5/
 
