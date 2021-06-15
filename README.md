@@ -55,4 +55,4 @@ location = {Virtual Event, USA},
 series = {ICS '21}
 }
 
-- Generated C files (*.atss.*.c) are only for reference. Please refer to the paper for details.
+- Generated C files (\*.atss.\*.c) are only for reference. Please refer to the paper for details.
