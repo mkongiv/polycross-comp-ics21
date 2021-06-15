@@ -1,6 +1,6 @@
 # Software Artifact for ICS'21 paper: "Tile Size Selection of Affine Programs for GPGPUs using Polyhedral Cross-Compilation".
 
-_Requisites_:
+**Requisites**:
 
 - PoCC v1.5.0: pocc-1.5.0-beta-selfcontained.tar.gz
 (PoCC has its own set of dependences, including Automake, GMP, etc).
@@ -9,7 +9,7 @@ _Requisites_:
 PoCC can be downloaded from: https://sourceforge.net/projects/pocc/files/1.5/
 
 
-_Installation steps:_
+**Installation steps:**
 
 Install PoCC 1.5:
 
@@ -29,14 +29,14 @@ Enter ics21-patches and run:
 
 
 
-_Use:_
+**Use:**
 - Invoke the Python script gpu-tss.py.
 - Example: python gpu-tss.py gemm.c V100 2000 vector-mode
 
 The script will print the selected tile sizes.
 
-_Notes:_
-- To cite this work:
+
+**To cite this work:**
 
 @inproceedings{10.1145/3447818.3460369,
 author = {Abdelaal, Khaled and Kong, Martin},
@@ -55,4 +55,5 @@ location = {Virtual Event, USA},
 series = {ICS '21}
 }
 
+**Note:**
 - Generated C files (\*.atss.\*.c) are only for reference. Please refer to the paper for details.
